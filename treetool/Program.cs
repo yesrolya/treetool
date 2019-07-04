@@ -88,9 +88,11 @@ namespace treetool
 
         static int Depth(string str)
         {
-            var numstr = str.Substring(str.IndexOf(' ', str.IndexOf("-d")));
+            var numstr = str.Substring(str.IndexOf(' ', str.IndexOf("-d")) + 1);
             numstr = numstr.Substring(0, numstr.IndexOf(' '));
-            int num;
+            int num = 0;
+            if (numstr.Length < 1)
+                return num;
             int.TryParse(numstr, out num);
             if (num < 1)
                 return 1;
