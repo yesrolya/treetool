@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "treetool", "treetool\treetool.csproj", "{BAE096E2-381E-4536-ACA9-42F439DF4F98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAE096E2-381E-4536-ACA9-42F439DF4F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE096E2-381E-4536-ACA9-42F439DF4F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE096E2-381E-4536-ACA9-42F439DF4F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE096E2-381E-4536-ACA9-42F439DF4F98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADB32152-B3F8-47AF-920D-D562A9888176}
+	EndGlobalSection
+EndGlobal
